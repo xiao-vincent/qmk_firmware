@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TAB,  KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,   KC_Y,   KC_U,   KC_I,  KC_O ,   KC_P,   KC_LBRC, KC_RBRC,KC_BSLS,KC_DEL, \
   KC_CAPS, KC_A,   KC_S,   KC_D,   KC_F,   KC_G,   KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,KC_QUOT,        KC_ENT,KC_PGUP,  \
   OSM(MOD_LSFT),         KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,   KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH,   OSM(MOD_RSFT),KC_UP,KC_PGDN, \
-  KC_LCTL, KC_LCTL, OSM(MOD_LALT),                KC_SPC,                        OSM(MOD_RALT),OSL(_FL),KC_RCTRL, KC_LEFT,KC_DOWN,KC_RGHT),
+  KC_LCTL, KC_LCTL, OSM(MOD_LALT),                LT(_FL, KC_SPC),                        OSM(MOD_RALT),OSL(_FL),KC_RCTRL, KC_LEFT,KC_DOWN,KC_RGHT),
 
 
   /* Keymap _FL: Function Layer
@@ -55,12 +55,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
 [_FL] = LAYOUT_ansi(
   _______, KC_F1 ,KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, KC_DEL, KC_INS ,  \
-  _______,MEH(KC_Q), KC_UP, MEH(KC_E),MEH(KC_R), MEH(KC_T),MEH(KC_Y),MEH(KC_U),MEH(KC_I),MEH(KC_O),MEH(KC_P),_______,_______, _______,KC_HOME, \
-  _______,KC_LEFT,KC_DOWN,KC_RIGHT,MEH(KC_F),MEH(KC_G),MEH(KC_H),MEH(KC_J),MEH(KC_K),MEH(KC_L),MEH(KC_SCLN), MEH(KC_QUOT), MEH(KC_ENT),KC_END, \
+  _______,MEH(KC_Q), MEH(KC_W), MEH(KC_E),MEH(KC_R), MEH(KC_T),MEH(KC_Y),MEH(KC_U),MEH(KC_I),MEH(KC_O),MEH(KC_P),_______,_______, _______,KC_HOME, \
+  _______,MEH(KC_A),MEH(KC_S),MEH(KC_D),MEH(KC_F),MEH(KC_G),MEH(KC_H),MEH(KC_J),MEH(KC_K),MEH(KC_L),MEH(KC_SCLN), MEH(KC_QUOT), MEH(KC_ENT),KC_END, \
   _______,_______,_______,BL_DEC, BL_TOGG,BL_INC, MEH(KC_N),MEH(KC_M),MEH(KC_MUTE),_______,_______,KC_BTN1, KC_MS_U, KC_BTN2, \
   _______,_______,_______,                 _______,               _______,_______,_______,KC_MS_L,KC_MS_D, KC_MS_R),
 };
-
 
 
 

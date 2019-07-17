@@ -1,3 +1,9 @@
+## My Notes (Vincent Xiao)
+### Instructions
+1. In ~/qmk_firmware, run `make tada68:xiao-vincent`
+1. Click button in the back of tada68
+1. Run `~/scripts/tada68.sh`
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)

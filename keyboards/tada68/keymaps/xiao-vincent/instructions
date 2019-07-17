@@ -1,9 +1,3 @@
-cd /Volumes/TADA68\ \ /
-cp -rf ~/qmk_firmware/FLASH.bin .
-rm -fr .Trashes/ .fseventsd/ ._.Trashes ._FLASH.bin
-
-
-
 ## Flashing Instructions (Mac)
 
 *When flashing the keyboard from a Mac, you must delete some files that are automatically created by the operating system in order to prevent bricking your keyboard.  Original information from /u/pawlwall from https://www.reddit.com/r/MechanicalKeyboards/comments/520cov/using_an_originative_tada86_on_a_mac/*
